@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    background-image: url(../img/alexelcapso.jfif);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+.container {
+    background-color:rgb(214, 208, 208);
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 15px blue;
+}
+
+header{
+    background-image: url(../img/h1.webp);
+    height: 350px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+
+
+    
+
+
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(214, 208, 208);
+    background-color: rgb(2, 2, 83);
+    padding: 5px;
+
+}
+nav {
+    width: 20%;
+    float: left;
+    
+
+}
+
+#content {
+    width: 78%;
+    float: left;
+    padding: 0 1%;
+   
+
+}
+#home {
+    padding-top: 10px;
+
+    
+}
+#home img {
+    width:990px;
+    height: 498px;
+    border-radius: 10px;
+ 
+   
+  
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.cb{
+    clear: both;
+}
+
+nav  li{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 4px;
+    border: solid 4px black ;
+    border-radius: 10px;
+
+
+
+
+}
+a{
+    text-decoration: none;
+}
+
+nav a li:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    box-shadow: 0 0 10px blue   ;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.frase {
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+
+
+}
+
+.tag {
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.enlaces a:hover {
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+/*Customización listas*/
+
+ul.ldc li {
+    list-style-type: square;
+
+}
+ul.ldc li ul li {
+    list-style-type: disc;
+
+}
+
+ul.ldc li ul li ul li{
+    list-style-type: circle;
+
+}
+
+
+ol.loci li {
+    list-style-type:lower-alpha;
+
+}
+
+ol.loci li ol li {
+    list-style-image: url(../img/heart.png);
+
+}
+
+ol.loci li ol li ol li {
+    list-style-type: decimal;
+    list-style-image: none;
+
+}
+
+table.tes th {
+
+     background-image: url(../img/prueba-3-portadas.jpg); 
+     background-repeat: no-repeat;   
+     background-position: center    ;
+}
+
+table.tes td {
+    text-align: center;
+    color: aliceblue;
+    background-image: url(../img/archivotormentas1.jpg);
+    background-position: center    ;
+}
+
+table.striped tr:nth-child(even){
+    background-image: url(../img/prueba-3-portadas.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;  
+
+}
+table.striped tr:nth-child(odd){
+    background-image: url(../img/h4.jpg); 
+    background-repeat: no-repeat;   
+    background-position:top left;
+    color: black;
+
+}
+
+table.centro {
+    margin: 0 auto;
+    width: 70%;
+
+    
+}
+ table.tod th {
+    font-weight: bold;
+    color: #008080;
+}
+
+.curs {
+    font-style: italic;
+}
+
+table .bdd {
+    background-color: #FF8080;
+}
+table .sisi {
+    background-color:#FFA264;
+}
+table .lmsg {
+    background-color: #00DF00;
+}
+table .prog {
+
+    background-color: #0080FF;
+}
+table .ende {
+    background-color: #00B95C;
+}
+table .fol {
+    background-color: #FFFF64;
+}
+table .ing {
+    background-color: #D2D26E;
+}
+
+
+
+.field {
+     width: 55%;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+}
+
