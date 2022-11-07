@@ -53,12 +53,32 @@
 
             </nav>
             <div id="content">
-                <div id="formhtml15">
+                <div id="formhtml5">
                     <h1 class="center">Formularios HTML5</h1>
                     <fieldset>
-                        <legend>Form-html5</legend>
+                        <legend class="legend">Form-html5</legend>
                         <p><input type="url" name="url" id placeholder="url"></p>
+                        <p> <input type="email" name="email" id placeholder="email"> </p>
+                        <p> <input type="date" name="fecha"></p>
+                        <p> <input type="datetime-local" name="fechahoralocal"> </p>
+                        <p> <input type="month" name="mes" id placeholder="mes"> </p>
+                        <p> <input type="week" name="semana" id placeholder="semana"> </p>
+                        <p> <input type="color" name="color"> </p>
+                        <p> <input type="number" name="numero" id min="0" max="100" step="10"> </p>
+                        <p> <input type="range" name="rango" id min="0" max="100" step="10"
+                                onchange="updateTxtRange(this.value)">
+                            <input type="text" id="idrange" disabled>
+                        </p>
+                        <p> <input type="file" name="fichero"> </p>
+                        <p> <input type="hidden" name="var" value="dineros"> </p>
+                        <p><input type="image" name="imagen" src="img/cyberpunkLucygif.gif" width="200"></p>
+                        <p><input type="search" name="buscar" id placeholder="buscar..."></p>
+                        <p><input type="reset" value="Restablecer">
+                            <input type="submit" value="enviar">
+                        </p>
+
                     </fieldset>
+                    <p></p>
                 </div>
 
             </div>
