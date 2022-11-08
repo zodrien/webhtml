@@ -212,31 +212,38 @@ table.tod th {
 
 table .bdd {
     background-color: #FF8080;
+    text-align: center;
 }
 
 table .sisi {
     background-color: #FFA264;
+    text-align: center;
 }
 
 table .lmsg {
     background-color: #00DF00;
+    text-align: center;
 }
 
 table .prog {
 
     background-color: #0080FF;
+    text-align: center;
 }
 
 table .ende {
     background-color: #00B95C;
+    text-align: center;
 }
 
 table .fol {
     background-color: #FFFF64;
+    text-align: center;
 }
 
 table .ing {
     background-color: #D2D26E;
+    text-align: center;
 }
 
 
