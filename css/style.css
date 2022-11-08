@@ -317,3 +317,8 @@ audio {
     width: 40%;
     
 }
+
+.heraldo { 
+    display: block;
+    margin: 0 auto;
+}
