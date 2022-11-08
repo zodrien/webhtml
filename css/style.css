@@ -331,3 +331,18 @@ audio {
     margin: 0 auto;
     width: 250px;
 }
+
+#formhtml5 .legend {
+    border-style: groove;   
+    border-color: rgb(202, 133, 6);
+    border-radius: 10px; 
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}
+#formhtml5 fieldset {
+    border-radius: 20px;
+    border-color: transparent;
+    
+    
+}
+
